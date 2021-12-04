@@ -17,7 +17,7 @@ import pkg_resources as pkgr
 
 
 AVAILABLE_CITIES = ['chicago', 'new york city', 'washington']
-    
+PD_VERSION = '1.3.3'
 
 
 def get_city_file():
@@ -606,8 +606,8 @@ def main():
 
 if __name__ == '__main__':
     pd_version = pkgr.get_distribution('pandas').version
-    if(pd_version != '1.3.3'):
-        print("ERROR: Pandas version is not compatible. Must be 1.3.3")
+    if(pd_version != PD_VERSION):
+        print("ERROR: Pandas version is not compatible. Must be {}".format(PD_VERSION))
     else:
         main()
         
