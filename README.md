@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+November 19, 2021
 
 ### Project Title
-Replace the Project Title
+bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Reads CSV files and calculates statistics based on user-provieded filters.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+	Answered by 'Brandon Rhodes' and 'Boris' (4/21/09 and 5/11/19, respectively)
 
