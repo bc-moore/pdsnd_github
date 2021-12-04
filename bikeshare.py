@@ -13,6 +13,7 @@ import time
 import pandas as pd
 import os
 import datetime
+import pkg_resources as pkgr
 
 
 AVAILABLE_CITIES = ['chicago', 'new york city', 'washington']
@@ -604,7 +605,9 @@ def main():
                     
 
 if __name__ == '__main__':
-    main()
+    pd_version = pkgr.get_distribution('pandas').version
+    if(pd_version != '1.3.3'):
+        print("ERROR: Pandas version is not compatible. Must be 1.3.3")
+    else:
+        main()
         
-        
-    
