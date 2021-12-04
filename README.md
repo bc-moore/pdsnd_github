@@ -1,3 +1,14 @@
+###Notes
+The file 'bikeshare.py' should either
+1. be in the same folder as the bikeshare data (.csv) files
+2. be run from the same folder as the bikeshare data (.csv) files
+
+Ex.
+Files are located in 'C:\User\me\Documents\bikeshare'
+The file should be copied to this location
+OR
+The command prompt should be 'cd'ed to before running the file
+
 ### Date created
 November 19, 2021
 
